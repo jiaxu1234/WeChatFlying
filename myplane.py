@@ -3,7 +3,7 @@ import pygame
 
 class MyPlane(pygame.sprite.Sprite):
     def __init__(self,background_size):
-        pygame.sprite.Sprite.__init__(self)          #关于self与_init_的用法 ?
+        pygame.sprite.Sprite.__init__(self)
 
         self.image1=pygame.image.load("image/hero1.png")    #加载飞机图片1
         self.rect = self.image1.get_rect()         #得到当前我方飞机位置

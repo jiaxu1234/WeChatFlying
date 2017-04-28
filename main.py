@@ -40,7 +40,7 @@ get_bomb_sound.set_volume(0.2)
 get_bullet_sound = pygame.mixer.Sound("sound/get_double_laser.wav")
 get_bullet_sound.set_volume(0.2)
 
-def add_small_enemies(group1,group2,num):      #???敌方飞机生成控制函数？？？？？
+def add_small_enemies(group1,group2,num):
     for i in range(num):
         e1 = enemy.SmallEnemy(background_size)
         group1.add(e1)
